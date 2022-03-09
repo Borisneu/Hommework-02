@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webstudio</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Webstudio</title>
 </head>
 <body>
     <header>
-         <nav>
-                <a href="/html/index.html">Webstudio
+              <nav>
+                <a class="logo" href="/html/index.html">Webstudio
                 </a>
                 
-                <ul>
-                    <li><a href="">Portfolio</a>
+                <ul class="site-nav">
+                    <li>
+                        <a href="/html/portfolio.html">Portfolio</a>
                     </li>
-                    <li><a href="">Kontakte</a>
+                    <li>
+                        <a href="/html/kontakte.html">Kontakte</a>
                     </li>
                     <li>
                         <a href="/html/studia.html">Studia</a>
                     </li>
                 </ul>
 
-                <ul>
+                <ul class="outsite-nav">
                     <li>
                     <a href="mailto:superwebsite@gmail.com">superwebsite@gmail.com
                     </a>
@@ -34,16 +39,17 @@
                     </li>
                 </ul>
             </nav>
-    </header>
+         
+        </header> 
     <section>
-        <ul>
-          <li><button type="button" class="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Дизайн</button></li>
+        <ul class="portfolio-buttons">
+          <li><button class="p-button-1" type="button">Все</button></li>
+          <li><button class="p-button-2" type="button">Веб-сайты</button></li>
+          <li><button class="p-button-3" type="button">Приложения</button></li>
+          <li><button class="p-button-4" type="button">Дизайн</button></li>
+          <li><button class="p-button-5" type="button">Дизайн</button></li>
         </ul>
-        <ul>
+        <ul class="p-images-все">
             <li>
                 <img src="/images/portfolio/p-img1.jpg" alt="Laptop" width="370">
                 <h3>
@@ -129,20 +135,19 @@
         </ul>
     </section>
     <footer>
-          <a href="http://127.0.0.1:5501/index.html" class="link">Webstudio</a>
-           <ul>
+            <a class="logo" href="/html/index.html">Webstudio</a>
+           <ul class="footer-nav">
+               <li>
+                <a class="footer-adress" href="https://goo.gl/maps/U71CDMHyNWdLLS7W7"  target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                    </li>
             <li>
-                <a href="mailto:superwebsite@gmail.com">superwebsite@gmail.com</a>
+                <a class="footer-contact" href="mailto:info@example.com">info@example.com</a>
                </li>
             <li>
-               <a href="tel:+595123456789">+595123456789</a>
+               <a class="footer-contact" href="tel:+595123456789">+595123456789</a>
             </li>
-               <li>
-               
-              <a href="https://goo.gl/maps/U71CDMHyNWdLLS7W7"  target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
-                    </li>
               </ul>
-    </footer>
+        </footer>
     
 </body>
 </html>
