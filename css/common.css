@@ -1,0 +1,89 @@
+/* this file contains styles for all hmtl-sites */
+:root {
+  --hover-color: #2196f3;
+  --paragraph-color: #757575;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: black;
+  letter-spacing: 0.03em;
+  width: 1600px;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* --------------------------- Header --------------------------------- */
+
+.logo-link {
+  font-family: Raleway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: black;
+}
+
+.logo-web {
+  font-family: Raleway;
+  color: var(--hover-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+.site-nav .link:hover {
+  color: var(--hover-color);
+}
+
+.outsite-nav .link:hover {
+  color: var(--hover-color);
+}
+.outsite-nav .link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+}
+
+/*------------------------------ Footer -----------------------------*/
+
+footer {
+  background-color: #2f303a;
+  height: 252px;
+  width: 1600px;
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: Raleway;
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 171%;
+}
+
+.footer-adress {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 171%;
+}
+
+.footer-nav .link:hover {
+  color: var(--hover-color);
+}

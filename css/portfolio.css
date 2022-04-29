@@ -1,0 +1,35 @@
+/* this file contains styles for portfolio.html */
+
+.portfolio-buttons button:hover {
+  background-color: var(--hover-color);
+  color: white;
+}
+.portfolio-buttons button {
+  font-size: 16px;
+  line-height: 162%;
+  font-weight: 500;
+  box-shadow: 0px 3px 1px #000, 0px 1px 2px #000, 0px 2px 2px #000;
+  border-radius: 4px;
+  height: 38px;
+  font-family: Roboto;
+  padding: 6px 22px;
+  line-height: 162%;
+}
+
+.portfolio-images li {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 372px;
+}
+.portfolio-images .title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 200%;
+}
+
+.portfolio-images p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 188%;
+  color: var(--paragraph-color);
+}
